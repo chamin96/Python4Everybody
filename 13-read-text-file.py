@@ -1,6 +1,6 @@
 fhand = open('mbox.txt')
 
-# print(fhand)
+print(fhand)
 
 count = 0
 
