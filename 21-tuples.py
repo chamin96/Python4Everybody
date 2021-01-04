@@ -19,5 +19,7 @@ for k, v in word_bank.items():
     new_tuple  = (v, k)
     lst.append(new_tuple)
 
+lst = sorted(lst, reverse=True)
 
-print(lst)
+for v, k in lst[0:10]:
+    print(k, v)
